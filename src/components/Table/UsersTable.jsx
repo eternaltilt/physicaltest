@@ -103,7 +103,7 @@ function UsersTable({ users }) {
         </InputGroup>
       </div>
       <div className="container">
-        <Table striped bordered hover variant="warning">
+        <Table variant="warning">
           <thead>
             <tr>
               <th>id</th>
@@ -152,7 +152,6 @@ function UsersTable({ users }) {
           <DropdownButton
             variant="warning"
             title='Выберите критерий'
-            id="input-group-dropdown-1"
           >
             <Dropdown.Item onClick={() => setSortingBy('по возрастанию')}>
               по возрастанию
